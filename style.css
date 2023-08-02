@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./image/cross.jpg');
-    background-size: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./image/cross.jpg);
+    background-size: cover;
 }
 
 .img img{
@@ -67,4 +67,46 @@ body{
 .input .book-btn:hover{
     cursor: pointer;
     box-shadow: 2px 2px 2px;
+}
+
+@media(max-width: 500px){
+    body{
+        background: url(./image/cross.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 903px;
+    }
+    .quotes{
+        margin-top: 250px;
+        width: 340px;
+        position: relative;
+        bottom: 100px;
+    }
+    .container{
+        width: 380px;
+        height: 750px;
+    }
+    .input{
+        position: relative;
+        left: 80px;
+    }
+    .heading{
+        font-size: x-large;
+    }
+    .display{
+        display: contents;
+    }
+    /* .input input[type = text]{
+        text-align: justify;
+        position: relative;
+        left: 20px;
+    } */
+    /* .chapter-input{
+        position: relative;
+        right: 10px;
+    } */
+    .input{
+        margin-right: 170px;
+        top: 50px;
+    }
 }
