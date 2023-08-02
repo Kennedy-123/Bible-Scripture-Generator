@@ -96,15 +96,6 @@ body{
     .display{
         display: contents;
     }
-    /* .input input[type = text]{
-        text-align: justify;
-        position: relative;
-        left: 20px;
-    } */
-    /* .chapter-input{
-        position: relative;
-        right: 10px;
-    } */
     .input{
         margin-right: 170px;
         top: 50px;
